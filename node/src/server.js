@@ -10,7 +10,7 @@ require('dotenv').config();
 let app = express();
 
 app.use(function(req, res, next) {
-  res.setHeader('Access-Control-Allow-Origin', 'http://54.169.68.138:3000');
+  res.setHeader('Access-Control-Allow-Origin', 'http://truongnq.vn');
   // res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
