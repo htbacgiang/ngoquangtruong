@@ -1,0 +1,47 @@
+{
+  
+  "production": {
+    "username": "tpteeupzygdgch",
+    "password": "0e8c352bb51b7cb9f887387c658122fa4b4341949893e18c9197a4676337cc29",
+    "database": "dca484vk35f56d",
+    "host": "ec2-52-3-60-53.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "logging": false,
+    "query": {
+      "raw":true
+    },
+    "timezone":"+07:00",
+    "dialectOptions":{
+      "ssl":{
+        "require":true,
+        "rejectUnauthorized":false
+      }
+    }
+  },
+  
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "development": {
+    "username": "tpteeupzygdgch",
+    "password": "0e8c352bb51b7cb9f887387c658122fa4b4341949893e18c9197a4676337cc29",
+    "database": "dca484vk35f56d",
+    "host": "ec2-52-3-60-53.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "logging": false,
+    "query": {
+      "raw":true
+    },
+    "timezone":"+07:00",
+    "dialectOptions":{
+      "ssl":{
+        "require":true,
+        "rejectUnauthorized":false
+      }
+    }
+  }
+}
